@@ -23,6 +23,7 @@ button {
 input {
     text-align: center;
     width: 50%;
+    font-size: 16px;
 }
 
 #reset-button {
@@ -46,4 +47,6 @@ input {
     p {
         margin-bottom: 5%;
     }
+
+
 }
