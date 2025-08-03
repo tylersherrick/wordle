@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    width: 50%;
+}
+
+#content {
+    width: 70%;
+    height: 5%;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 60%;
+    margin-top: 10%;
+}
+
+button {
+    margin-top: 5%;
+    margin-bottom: 0%;
+    width: 55%;
+}
+
+input {
+    text-align: center;
+    width: 50%;
+}
+
+#reset-button {
+    margin-bottom: 5%;
+}
+
+@media (min-width: 481px) {
+    * {
+        margin: 0;
+    }
+
+    body {
+        width: 90%;
+    }
+    
+    #content {
+        width: 100%;
+        margin: 10% 0 0 0;
+    }
+
+    p {
+        margin-bottom: 5%;
+    }
+}
