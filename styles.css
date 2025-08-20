@@ -22,7 +22,7 @@ body {
     max-width: 400px;
     text-align: center;
     padding: 20px;
-    margin-top: 5%;
+    margin-top: 5%; /* top margin for overall content */
 }
 
 /* Title */
@@ -74,9 +74,14 @@ button:hover {
     background: #c62828;
 }
 
+/* Guesses Container */
+#guesses-container {
+    margin-bottom: 40px; /* space between last guess row and keyboard */
+}
+
 /* Guess Rows */
-#content div {
-    margin-top: 10px;
+#guesses-container > div {
+    margin-top: 12px; /* spacing between each guess row */
 }
 #content span {
     display: inline-block;
@@ -89,6 +94,40 @@ button:hover {
     border: 2px solid #ddd;
     border-radius: 4px;
     text-transform: uppercase;
+}
+
+/* Keyboard */
+#keyboard {
+    padding-top: 5px; /* small padding to separate from guesses */
+}
+.key-row {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 8px;
+}
+.key {
+    margin: 2px;
+    padding: 10px;
+    min-width: 32px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background: #d3d3d3; /* easier to see unused keys */
+    cursor: default;
+    font-weight: bold;
+}
+
+/* Shared Colors */
+.green {
+    background: #6aaa64 !important;
+    color: white !important;
+}
+.yellow {
+    background: #c9b458 !important;
+    color: white !important;
+}
+.grey {
+    background: #787c7e !important;
+    color: white !important;
 }
 
 /* Responsive */
